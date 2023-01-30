@@ -1,0 +1,519 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #111;
+    overflow-x: hidden;
+}
+
+.swiper-container {
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 470px;
+    background: #fff;
+}
+
+.swiper-slide .imgBx_team {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.swiper-slide .imgBx_team img {
+    width: 100%;
+}
+
+.swiper-slide .details {
+    box-sizing: border-box;
+
+    padding: 20px;
+}
+
+.swiper-slide .details h3 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 20px;
+    color: #00008B;
+}
+
+.swiper-slide .details h3 span {
+    font-size: 16px;
+    color: #111;
+}
+
+
+.header {
+    position: absolute;
+    top: 300px;
+    left: 0;
+    z-index: 100000;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header .logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding-top: 50px;
+    text-shadow: 0px 0px 8px black;
+}
+
+.header .toggle img {
+    max-width: 40px;
+    cursor: pointer;
+}
+
+.play {
+position: absolute;
+    z-index: 10;
+   margin-left: 65%;
+}
+
+#play_btn {
+    cursor: pointer;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.banner:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    background: linear-gradient(to top, #111, transparent);
+}
+
+.banner .content {
+    position: relative;
+    max-width: 900px;
+    text-align: start;
+    z-index: 1;
+}
+
+.banner .content h1 {
+    padding-top: 50px;
+    color: #4d4d4d;
+    font-size: 3em;
+    text-align: center;
+    border-style: solid;
+    border: 2px;
+    border-color: #111;
+}
+
+.banner .content h2 {
+    color: #111;
+    font-size: 5em;
+    text-align: center;
+}
+
+.banner .content p {
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.btn_dw {
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 140px;
+    padding: 12px 50px;
+    background: #fff;
+    color: #333;
+    text-decoration: none;
+}
+
+.fitBg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: ;
+    object-fit: cover;
+    opacity: 1;
+}
+
+.fitBg_1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+}
+
+.about_second {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.about_second .contentBx {
+    min-width: 50%;
+    width: 50%;
+    text-align: start;
+    padding-right: 40px;
+}
+
+.titleText {
+    font-weight: 70%;
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.text {
+    color: #fff;
+    font-size: 1em;
+    }
+
+
+.about_second .imgBx {
+    position: relative;
+    min-width: 50%;
+    width: 50%;
+    min-height: 500px;
+}
+
+
+.destination {
+    text-align: center;
+}
+
+.destination .conetnt {
+    text-align: center;
+}
+
+.destination .destinationList {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.destination .destinationList .box {
+    position: relative;
+    min-width: 350px;
+    height: 480px;
+    background: #191919;
+    transition: 0.5s;
+    margin: 10px;
+}
+
+.destination .destinationList:hover .box {
+    opacity: 0.2;
+}
+
+.destination .destinationList .box:hover {
+    opacity: 1;
+}
+
+.destination .destinationList .box .imgBx {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.destination .destinationList .box .content {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.destination .destinationList .box .content h2 {
+    color: #fff;
+    font-weight: 500;
+    line-height: 0.9em;
+}
+
+.destination .destinationList .box .content h2 span {
+    font-size: 0.8em;
+    font-weight: 300;
+    opacity: 0.5;
+}
+
+
+
+.about {
+    flex-direction: column;
+}
+
+.about .contentBx. .about .imgBx {
+    min-width: 100%;
+    width: 100%;
+    text-align: center;
+    padding-right: 0px;
+}
+
+.about .imgBx {
+    min-height: 250px;
+}
+
+.btn {
+    margin-bottom: 30px;
+}
+
+.destination .destinationList .box {
+    position: relative;
+    max-width: 350px;
+    min-width: initial;
+    width: 350px;
+    height: 400px;
+}
+
+.destination .destinationList .box .imgBx {
+    height: 320px;
+}
+
+/* footer
+=======================*/
+
+footer {
+    position: relative;
+    width: 85%;
+    height: auto;
+    background: #111;
+    padding-top: 50px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .container__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+footer .container__footer {
+    margin-right: 10px;
+}
+
+footer .container__footer .aboutus {
+    width: 50%;
+}
+
+footer .container__footer h2 {
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+footer .container__footer h2:before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+
+footer p {
+    color: #999;
+}
+
+.sci_1 {
+    margin-top: 20px;
+    display: flex;
+}
+
+.sci_1 li {
+    list-style: none;
+}
+
+.sci_1 li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.sci_1 li a:hover {
+    background: #f00;
+}
+
+.sci_1 li a .fa {
+    color: #fff;
+    font-size: 20px;
+}
+
+.quickLinks {
+    position: relative;
+    width: 25%;
+}
+
+.quickLinks ul li a {
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.quickLinks ul li {
+    list-style: none;
+}
+
+.quickLinks ul li a:hover {
+    color: #fff;
+}
+
+.contact {
+    position: relative;
+    width: 50%;
+    margin-right: 0 !important;
+    padding-left: 20%;
+}
+
+.contact .info {
+    position: relative;
+    width: 100%;
+}
+
+.contact .info li {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.contact .info li span:nth-child(1) {
+    color: #fff;
+    font-size: 20px;
+}
+
+.contact .info li span {
+    color: #999;
+    margin-right: 10px;
+}
+
+.contact .info li a {
+    color: #999;
+    text-decoration: none;
+
+}
+
+.contact .info li a:hover {
+    color: #fff;
+}
+
+.copyrightText {
+    width: 100%;
+    background: #181818;
+    padding: 8px 100px;
+    text-align: center;
+    color: #999;
+}
+
+header.site-header{
+    color: #fff;
+}
+
+.site-header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    opacity: 1;
+}
+
+
+input:active, input:focus, textarea:active, textarea:focus, select:active, select:focus {
+    background:  #0000b3;
+}
+
+input, button, select, textarea {
+    background: none;
+    border: 1px solid white;
+    padding: 10px 20px;
+    font-size: .9rem;
+    outline: none;
+    margin: 2% 0 0 90%;
+    text-decoration-color: white;
+}
+
+.wrapper {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+.wrapper img {
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    object-fit: cover;
+}
+
+.container-free {
+    margin-right: 5%;
+    color: white;
+}
+select {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+dl {
+    color: #999;
+}
+
+.nachalo {
+    padding: 15%;
+    padding-bottom: 0;
+}
+
+
+section {
+    position: relative;
+    padding: 5%;
+}

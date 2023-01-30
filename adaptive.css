@@ -1,0 +1,217 @@
+@media screen and(max-width: 902px) {
+    footer {
+        bottom: 0;
+    }
+    .aboutus {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    footer div {
+        margin: 5px 0px;
+    }
+}
+
+@media screen and(max-width: 756px) {
+    footer {
+        padding-left: 50px;
+    }
+
+    .contact {
+        padding-left: 5%;
+    }
+}
+
+@media screen and(max-width: 676px) {
+    footer {
+        padding-left: 10px;
+    }
+
+    .contact {
+        padding-left: 2%;
+    }
+
+    footer p {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 769px) {
+    section {
+        padding: 20px;
+    }
+
+    .banner .content h2 {
+        font-size: 2.5em;
+        margin-left: 20px;
+        text-align: start;
+        font-size: 4em;
+    }
+    
+    .banner .content h1 {
+        font-size: 5em;
+        text-align: start;
+        margin-left: 20px;
+    }
+
+    .banner .content p {
+        font-size: 2em;
+        text-align: start;
+        margin-left: 10px;
+    }
+    
+    .btn_dw {
+        margin-left: 100px;
+    }
+
+    section {
+        padding: 30px;
+    }
+    
+    .play {
+        margin-left: 69%;
+    }
+    
+    .text {
+        padding-left: 100px;
+    }
+    
+    .imgBx .fitBg_1 {
+        object-fit: cover;
+        padding-right: 100px;
+    }
+    
+    .header .logo {
+        font-size: 3em;
+        padding-top: 0px;
+    }
+    
+    .about_second .contentBx {
+        min-width: 70%;
+        width: 40%;
+        margin-left: 20px;
+        text-align: start;
+        padding-right: 20px;
+    }
+    
+    .titleText {
+        padding-left: 70px;
+
+    }
+    
+}
+
+@media (max-width: 720px) {
+    
+    .header .logo {
+        font-size: 2em;
+        padding-top: 10px;
+    }
+        
+    .banner .content h2 {
+        font-size: 2.5em;
+        margin-left: 10px;
+        text-align: start;
+    }
+    
+    .banner .content h1 {
+        font-size: 3em;
+        text-align: start;
+        margin-left: 10px;
+    }
+
+    .banner .content p {
+        font-size: 1em;
+        text-align: start;
+        margin-left: 10px;
+    }
+    
+    section {
+        padding: 10px;
+    }
+    
+    .play {
+        margin-left: 60%;
+    }
+    
+    .btn_dw {
+        margin-left: 30px;
+    }
+    
+    .titleText {
+        padding-left: 27px;
+        font-size: 0.7em;
+    }
+    
+    .text {
+        padding-left: 40px;
+        font-size: 0.7em;
+    }
+     
+    .imgBx .fitBg_1 {
+        padding-right: 50px;
+       
+    }
+    
+    footer {
+        padding-left: 20px;
+       display: block;
+    }
+    
+    .contact {
+        width: 100%;
+        font-size: 0.7em;
+    }
+    
+    footer .container__footer .aboutus {
+        font-size: 0.7em;
+    }
+    
+    .about_second .contentBx {
+        margin-left: 20px;
+    }
+    
+    .text {
+        margin-left: 30px;
+    }
+    
+    .contentBx .titleText {
+        margin-left: 20px;
+    }
+    
+    .imgBx .fitBg_1 {
+       padding-right: 80px;
+    }
+       
+}
+
+@media (max-width: 435px) {
+    
+    .contact {
+        padding-left: 5%;
+        
+    }
+    
+    footer .container__footer .aboutus {
+        width: 60%;
+    }
+    .titleText {
+        padding-left: 27px;
+        font-size: 0.2em;
+    }
+    
+}
+
+@media (max-width: 410px) {
+    
+    .sci_1 li a {
+        width: 35px;
+        height: 35px;
+        margin-right: 5px;
+    } 
+    .titleText {
+        padding-left: 27px;
+        font-size: 0.2em;
+    }
+    
+}
